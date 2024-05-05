@@ -1,0 +1,65 @@
+{ 
+    "version": "",
+    "OuterWall_[0, 1978]_iwu_oad": {
+        "building_age_group": [
+            0,
+            1978
+        ],
+        "construction_type": "iwu_oad",
+        "inner_radiation": 5.0,
+        "inner_convection": 2.7,
+        "outer_radiation": 5.0,
+        "outer_convection": 20.0,
+        "layer": {
+            "0": {
+                "thickness": 0.2,
+                "material": {
+                    "name": "lightweight_concrete_Vermiculit_1100",
+                    "material_id": "570be3be-3a43-11e7-b769-2cd444b2e704"
+                }
+            }
+            }
+        },
+    "GroundFloor_[0, 1978]_iwu_oad": {
+        "building_age_group": [
+            0,
+            1978
+        ],
+        "construction_type": "iwu_oad",
+        "inner_radiation": 5.0,
+        "inner_convection": 1.7,
+        "layer": {
+            "0": {
+                "thickness": 0.03,
+                "material": {
+                    "name": "oak_old",
+                    "material_id": "25b5d680-3a43-11e7-ba46-2cd444b2e704"
+                }
+            }
+        }
+    },
+    "Window_[0, 1978]_iwu_oad": {
+        "building_age_group": [
+            0, 
+            1978
+        ],
+        "construction_type": "iwu_oad",
+        "inner_radiation": 5.0,
+        "inner_convection": 2.7,
+        "outer_radiation": 5.0,
+        "outer_convection": 20.0,
+        "g_value": 0.6,
+        "a_conv": 0.02,
+        "shading_g_total": 1.0,
+        "shading_max_irr": 100.0,
+        "layer": {
+            "0": {
+                "thickness": 0.5617090909090908,
+                "material": {
+                    "name": "glas_generic",
+                    "material_id": "0abbb19a-83ff-11e6-bacd-2cd444b2e704"
+                }
+            }
+        }
+    }
+}
