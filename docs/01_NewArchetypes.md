@@ -111,4 +111,9 @@ from teaser.logic.buildingobjects.thermalzone import ThermalZone
 
 6. Get Material data, based on the U-values. For this go to: https://www.ubakus.de/ and add layers to the respective input data. Add the respective materials to "teaser\data\input\inputdata\MaterialTemplates.json" 
 
-7. Get 
+7. Get Window data. 
+
+
+## Concept to get Material data
+
+Write script, that returns layers and their thickness. Input should be age group, u-value and (optional) amount of layers.
