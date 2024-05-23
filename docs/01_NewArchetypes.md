@@ -111,7 +111,7 @@ from teaser.logic.buildingobjects.thermalzone import ThermalZone
 
 6. Get Material data, based on the U-values. For this go to: https://www.ubakus.de/ and add layers to the respective input data. Add the respective materials to "teaser\data\input\inputdata\MaterialTemplates.json" 
 
-7. Get Window data. 
+7. Get Window data. A further question with window data is that you need orientation of windows for the archetypes. This is not existend for Non-Residential Buildings. Factors can be estimated, by dividing typical surfaces. This is also a problem with getting further typical areas, such as ceiling, roofs, e.g. 
 
 
 ## Concept to get Material data
